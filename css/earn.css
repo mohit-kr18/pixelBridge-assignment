@@ -1,0 +1,12 @@
+.overview_state.earn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+
+
+@media (max-width:900px){
+    .overview_state.earn{
+        grid-template-columns: 1fr;
+    }
+}
