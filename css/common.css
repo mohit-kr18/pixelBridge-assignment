@@ -32,12 +32,15 @@
   width: 100%;
 }
 
-.navbar_container-logo {
+.navbar_container_logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.navbar_container-logo p{
+.navbar_container_logo img{
+  width: 50px;
+}
+.navbar_container_logo p{
   font-size: 25px;
   font-family: 'Poppins', sans-serif;
 }
@@ -128,4 +131,27 @@
 
 .btn_hr{
   margin-top: auto;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+  .navbar_menu {
+    padding: 1rem;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .navbar_container_logo  p{
+    font-size: 15px;
+  }
+  .navbar_container_logo img {
+    width: 30px;
+  }
+  .btn {
+    margin: 5px;
+  }
 }
